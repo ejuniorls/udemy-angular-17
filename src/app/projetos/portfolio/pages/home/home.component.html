@@ -1,20 +1,22 @@
-<app-header></app-header>
+<body>
+    <app-header></app-header>
 
-<main>
-    <app-knowledge></app-knowledge>
+    <main>
+        <app-knowledge></app-knowledge>
 
-    <app-experiences></app-experiences>
+        <app-experiences></app-experiences>
 
-    @defer (on viewport) {
+        @defer (on viewport) {
         <app-projects></app-projects>
-    } @placeholder {
+        } @placeholder {
         <section>
             <h2>Carregando todos os projetos desenvolvidos...</h2>
         </section>
-    } @error { 
+        } @error {
         <section>
             <h2>Ocorreu um erro ao carregar, tente novamente!</h2>
         </section>
-    }
+        }
 
-</main>
+    </main>
+</body>
