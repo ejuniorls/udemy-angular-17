@@ -4,7 +4,7 @@ export interface IProjects {
     title: string;
     width: string;
     height: string;
-    descrition: string;
+    description: string;
     links: [
         {
             name: string;
