@@ -9,6 +9,7 @@ import { Secao08Component } from './pages/secao08/secao08.component';
 import { Secao09Component } from './pages/secao09/secao09.component';
 import { Secao10Component } from './pages/secao10/secao10.component';
 import { Secao11Component } from './pages/secao11/secao11.component';
+import { Secao12Component } from './pages/secao12/secao12.component';
 
 export const routes: Routes = [
     {
@@ -23,6 +24,7 @@ export const routes: Routes = [
             { path: 'secao09', component: Secao09Component },
             { path: 'secao10', component: Secao10Component },
             { path: 'secao11', component: Secao11Component },
+            { path: 'secao12', component: Secao12Component },
         ]
     },
     {
